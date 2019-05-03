@@ -51,9 +51,9 @@ namespace RedmineGET
         [DataMember]
         public string due_date { get; set; }
         [DataMember]
-        public int done_ratio { get; set; }
+        public int? done_ratio { get; set; }
         [DataMember]
-        public int estimated_hours { get; set; }
+        public int? estimated_hours { get; set; }
         [DataMember]
         public List<custom_field> custom_fields { get; set; }
 
